@@ -24,6 +24,88 @@
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
+
+        <style>
+            .container {
+              position: relative;
+              width: 50%;
+            }
+
+            .container1 {
+              position: relative;
+              width: 50%;
+            }
+            
+            .image {
+              display: block;
+              width: 100%;
+              height: auto;
+            }
+
+            .image1 {
+              display: block;
+              width: 100%;
+              height: auto;
+            }
+            
+            .overlay {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              height: 100%;
+              width: 80%;
+              opacity: 0;
+              transition: .5s ease;
+              background-color: #07578C;
+            }
+
+            .overlay1 {
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 0;
+              right: 15%;
+              height: 100%;
+              width: 75%;
+              opacity: 0;
+              transition: .5s ease;
+              background-color: #07578C;
+            }
+            
+            .container:hover .overlay {
+              opacity: 1;
+            }
+           
+            .container1:hover .overlay1 {
+              opacity: 0.75;
+            }
+
+            .text {
+              color: white;
+              font-size: 20px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              text-align: center;
+            }
+            
+            .text1 {
+              color: white;
+              font-size: 20px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              -webkit-transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+              text-align: center;
+            }
+            </style>
     </head>
     <!-- END HEAD -->
 
@@ -144,62 +226,7 @@
         </div>
     </div>
         <!-- End Skills -->
-
-        <!-- Resume -->
-        <div id="resume">
-       
-                <div class="container content-lg">
-                    <div class="row">
-                        <div class="col-sm-3 sm-margin-b-30">
-                            <div class="text-right sm-text-left">
-                                <h2 class="margin-b-0">Resume</h2>
-                                <p>Last updated 11/9/21 </p>
-                            </div>
-                        </div>
-                        <div class="col-sm-8 col-sm-offset-1">
-                            <div class="row row-space-2 margin-b-4">
-                               
-                                <div class="col-md-4 md-margin-b-4">
-                                    <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
-                                        <div class="service-element">
-                                            <i class="service-icon color-white icon-screen-tablet"></i>
-                                        </div>
-                                        <div class="service-info">
-                                            <h3 class="color-white">Resume Download</h3>
-                                            <p class="color-white margin-b-5">Click Here</p>
-                                        </div>
-                                    <a href="./Resume.pdf" target="_blank" class="content-wrapper-link"></a>     
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    
-                                </div>
-                            </div>
-                            <!--// end row -->
-                        </div>
-                    </div>
-                    <!--// end row -->
-                </div>
-        
-        </div>
-        <!-- End Resume -->
-
-        
-                            </div>
-
-                            </div>
-                            <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
-                             
-                            </div>
-                        </div>
-                        <!-- End Masonry Grid -->
-                    </div>
-                </div>
-                <!--// end row -->
-            </div>
-        </div>
-        <!-- End Work -->
-        
+         
         <!-- Sneakers -->
 
         <div id="sneakers">
@@ -212,36 +239,91 @@
 
                         </div>
                     </div>
+                    
                     <div class="col-sm-8 col-sm-offset-1">
                         <div class="margin-b-60">
+                            <div class="container1">
                         	<a href="https://www.ebay.com/itm/384285602912">
                                 <img alt="Jordan 1 Court Purple" src="./img/aj1-court-purple.jpg"
                                 width="280" height="200">
+                                <div class="overlay1">
+                                    <div class="text1">Jordan 1 Court Purple</div>
+                                </div>
                              </a>
+                            </div>
+                        
+
+                    
+                            <div class="container1">
                              <a href="https://www.ebay.com/itm/383854927224">
                                 <img alt="Jordan 1 Metallic Gold" src="./img/aj1-metallic-gold.jpeg"
                                 width="280" height="200">
+                                <div class="overlay1">
+                                    <div class="text1">Jordan 1 Metallic Gold</div>
+                                </div>
                              </a>
+                             </div>
+                            
+
+                        
+                             <div class="container1">
                              <a href="https://www.ebay.com/itm/384526489363">
                                 <img alt="Jordan 1 A Ma Maniere" src="./img/aj1-a-ma-maniere.jpeg"
                                 width="280" height="200">
+                                <div class="overlay1">
+                                    <div class="text1">Jordan 1 A Ma Maniere</div>
+                                </div>
                              </a>
-                             <a href="https://www.ebay.com/itm/383909940611">
+                            </div>
+                        
+
+                    
+                            <div class="container1">
+                        	<a href="https://www.ebay.com/itm/383909940611">
                                 <img alt="New Balance Stray Rats" src="./img/stray-rats.jpeg"
                                 width="280" height="200">
+                                <div class="overlay1">
+                                    <div class="text1">New Balance Stray Rats</div>
+                                </div>
                              </a>
-                             <a href="https://www.ebay.com/itm/384086933022">
-                                <img alt="Air Jordan 12 Low Easter" src="./img/aj12-easter.jpg"
-                                width="280" height="200">
+                            </div>
+                        
+
+                    
+                            <div class="container1">
+                                <a href="https://www.ebay.com/itm/384086933022">
+                                    <img alt="Air Jordan 12 Low Easter" src="./img/aj12-easter.jpg"
+                                    width="280" height="200">
+                                <div class="overlay1">
+                                    <div class="text1">Air Jordan 12 Low Easter</div>
+                                </div>
                              </a>
-                             <a href="https://www.ebay.com/itm/384268581011">
-                                <img alt="Dunk High Maize" src="./img/dunk-high-maize.jpg"
-                                width="280" height="200">
+                            </div>
+                        
+
+                   
+                            <div class="container1">
+                                <a href="https://www.ebay.com/itm/384268581011">
+                                    <img alt="Dunk High Maize" src="./img/dunk-high-maize.jpg"
+                                    width="280" height="200">
+                                <div class="overlay1">
+                                    <div class="text1">Nike Dunk High Maize</div>
+                                </div>
                              </a>
-                             <a href="https://www.ebay.com/itm/384204545995">
-                                <img alt="Air Max Clot" src="./img/clot.jpeg"
-                                width="280" height="200">
+                            </div>
+                        
+
+                    
+                            <div class="container1">
+                                <a href="https://www.ebay.com/itm/384204545995">
+                                    <img alt="Air Max Clot" src="./img/clot.jpeg"
+                                    width="280" height="200">
+                                <div class="overlay1">
+                                    <div class="text1">Air Max Clot</div>
+                                </div>
                              </a>
+                            </div>
+                        
 
                     </div>
                 </div>
@@ -250,6 +332,70 @@
         </div>
     </div>
         <!-- End Sneakers -->
+
+        <!-- Music-->
+        <div id="music">
+        	<div class="bg-color-sky-light" data-auto-height="true">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">Music</h2>
+                            <p>What I'm listening to!</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="margin-b-60">
+                            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0A8zVl7p82B" width="600" height="680" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>                        </div>
+                    </div>
+
+                    
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+    </div>
+    <!--End Music-->
+
+    <!-- Resume -->
+    <div id="resume">
+       
+        <div class="container content-lg">
+            <div class="row">
+                <div class="col-sm-3 sm-margin-b-30">
+                    <div class="text-right sm-text-left">
+                        <h2 class="margin-b-0">Resume</h2>
+                        <p>Last updated 11/9/21 </p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-sm-offset-1">
+                    <div class="row row-space-2 margin-b-4">
+                       
+                        <div class="col-md-4 md-margin-b-4">
+                            <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                <div class="service-element">
+                                    <i class="service-icon color-white icon-screen-tablet"></i>
+                                </div>
+                                <div class="service-info">
+                                    <h3 class="color-white">Resume Download</h3>
+                                    <p class="color-white margin-b-5">Click Here</p>
+                                </div>
+                            <a href="./Resume.pdf" target="_blank" class="content-wrapper-link"></a>     
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+
+</div>
+<!-- End Resume -->
+
 
         <!-- Contact -->
         <div id="contact">
